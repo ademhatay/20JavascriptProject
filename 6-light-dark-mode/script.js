@@ -1,12 +1,12 @@
 const toggleSwitch = document.querySelector('input[type="checkbox"]');
 const nav = getElements('nav');
 const toggleIcon = getElements('toggle-icon');
-const image1 = getElements('image1');
+const image1 = getElements('image1'); // document.getElementById('image1')
 const image2 = getElements('image2');
 const image3 = getElements('image3');
 const textBox = getElements('text-box');
 
-function getElements(id) {
+const getElements = (id) => {
 	return document.getElementById(id);
 }
 
